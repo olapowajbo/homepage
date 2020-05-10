@@ -1,35 +1,112 @@
-
-h2 {
-    color:#6b9080;
-}
-h3 {
-    color: #537763;
-}
-h1 {
-    color: #344e41;
-}
 body {
-    color: #657a69;
-    background: #61a349;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #657a69;
+  background: #d9e2d6;
 }
-p {
-    background: #dfe7dd;
-    border-radius: 10px;
-    padding: 20px;
+.navigation {
+  background-color: white;
+}
+.navigation--link{
+  color: #657a69;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation--link__main {
+  color: rgb(0, 0, 0);
+}
+.main--heading {
+  color: #344e41;
+}
+.hello-section {
+
+}
+.hello-section--title {
+  color: #6b9080;
+}
+.hello-section--photo {
+  border-radius: 50%;
+  max-height: 200px;
+  float: left;
+  padding: 0 20px;
+}
+.hello-section--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.to-you-section {
+
+}
+.to-you-section--title {
+  color: #6b9080;
+}
+.to-you-section--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.about-me-section {
+
+}
+.about-me-section--title {
+  color: #6b9080;
+}
+.about-me-section--photo {
+  max-height: 200px;
+  padding: 0 20px;
+}
+.about-me-section--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.offfer-section {
+
+}
+.offer-section--title {
+  color: #6b9080;
+}
+.family-article {
+
+}
+.family-article--title {
+  color: #294e3e;
+}
+.family-article--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.kids-article {
+
+}
+.kids-article--title {
+  color: #294e3e;
+
+}
+.kids-article--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
+}
+.day-article{
+  
+}
+.day-article--title {
+  color: #294e3e;
+}
+.day-article--description {
+  background: #dfe7dd;
+  border-radius: 10px;
+  padding: 20px;
 }
 a {
-    color: rgb(248, 247, 241);
+  color: rgb(17, 68, 88);
 }
 img {
-    max-width: 600px;
+  max-width: 300px;
 }
-.logo {
-    max-width: 200px;
-}
-.my_photo {
-    border-radius: 50%;
-    max-width: 200px;
-}
-.offer-header {
-    text-decoration: underline;
+.footer {
+
 }

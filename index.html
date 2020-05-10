@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav>
-            <a href="index.html">Strona główna</a>
-            <a href="aboutMe.html">O mnie</a>
-            <a href="offer.html">Oferta</a>
-        </nav>
+      <nav class="navigation">
+        <a class ="navigation--link navigation--link__main" href="index.html">Strona główna</a>
+        <a class ="navigation--link" href="aboutMe.html">O mnie</a>
+        <a class ="navigation--link" href="offer.html">Oferta</a>
+      </nav>
     </header>
     <main>
-        <header id="top">
-            <h1>Ola Powajbo - moja przygoda z fotografią.</h1>
-            <img class="logo" src="logo_czarne.png" alt="moje logo">
-        </header>
-        <section>
-            <h2>
-                Witaj w moim fotograficznym świecie!
-            </h2>
-            <img class="my_photo" src="me.jpg" alt="Ola w wersji fotograf">
-            <p>
-                Dlaczego właśnie ja? Trudne pytanie i nie ma na nie jednoznacznej odpowiedzi, ale wiem, że postaram się stworzyć naturalne
-                kadry, pokazujące to co Was łączy. Skupić się na emocjach. Dać Wam poczucie bezpieczeństwa i możliwości
-                pokazania siebie. Nie będzie zbędnych dodatków i akcesoriów, przede wszystkim Wy. Więcej o mojej foto
-                przygodzie znajdziesz w sekcji "O mnie" <a href="aboutMe.html">Tu :-)</a>
-            </p>
-        </section>
-        <section>
-            <h2>
-                Co mogę Ci zaoferować?
-            </h2>
-            <p>
-                Ma być prosto i naturalnie. Wy w roli głównej. Chciałabym, aby zdjęcia które wspólnie stworzymy nie
-                zalegały na komputerowym dysku, ale zdobiły ściany Waszych domów, czy karty albumów do których będziecie
-                wracać.
-            </p>
-        </section>
+      <header class="main__heading main__heading--js" id="top">
+        <h1>Ola Powajbo - moja fotograficzna przygoda.</h1>
+      </header>
+      <section class="hello-section">
+        <h2 class="hello-section--title">
+          Witaj w moim fotograficznym świecie!
+        </h2>
+        <img class="hello-section--photo" src="me.jpg" alt="Ola w wersji fotograf" />
+        <p class="hello-section--description">
+          Dlaczego właśnie ja? Trudne pytanie i nie ma na nie jednoznacznej
+          odpowiedzi, ale wiem, że postaram się stworzyć naturalne kadry,
+          pokazujące to co Was łączy. Skupić się na emocjach. Dać Wam poczucie
+          bezpieczeństwa i możliwości pokazania siebie. Nie będzie zbędnych
+          dodatków i akcesoriów, przede wszystkim Wy. Więcej o mojej foto
+          przygodzie znajdziesz w sekcji "O mnie"
+          <a href="aboutMe.html">Tu :-)</a>
+        </p>
+      </section>
+      <section class="to-you-section">
+        <h2 class="to-you-section--title">
+          Co mogę Ci zaproponować?
+        </h2>
+        <p class="to-you-section--description">
+          Ma być prosto i naturalnie. Wy w roli głównej. Chciałabym, aby zdjęcia
+          które wspólnie stworzymy nie zalegały na komputerowym dysku, ale
+          zdobiły ściany Waszych domów, czy karty albumów do których będziecie
+          wracać.
+        </p>
+      </section>
     </main>
-    <footer>
-        Tak, tak to jest moja, własna strona. <a href="#top">Wróć na górę strony</a>
+    <footer class="footer">
+      Tak, tak to jest moja, własna strona.
+      <a href="#top">Wróć na górę strony</a>
     </footer>
     <script src="main.js "></script>
-
-</body>
-
+  </body>
 </html>
