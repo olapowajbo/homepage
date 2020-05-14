@@ -10,3 +10,18 @@ console.log(heading);
 
 const hello = document.querySelector('.hello-section--js');
 console.log(hello);
+
+function calculate (myNumber) {
+    console.log(`Dostałam ${myNumber}`);
+    return myNumber*7;
+}
+const myResult = calculate (age);
+console.log(age);
+
+console.log(myResult);
+
+
+function greet(age, name) {
+    console.log(`Witaj nieznajomy, nazywam się ${name} i mam ${age} lat.`);
+}
+greet (age, name);
