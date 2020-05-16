@@ -25,3 +25,10 @@ function greet(age, name) {
     console.log(`Witaj nieznajomy, nazywam się ${name} i mam ${age} lat.`);
 }
 greet (age, name);
+
+function hello (age,name) {
+    console.log(`Witaj ${name}, który/która masz ${age} lat. Miło, że tu zaglądasz.`);
+}
+    hello (age, name);
+
+    
