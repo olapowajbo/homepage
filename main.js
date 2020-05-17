@@ -26,9 +26,10 @@ function greet(age, name) {
 }
 greet (age, name);
 
-function hello (age,name) {
-    console.log(`Witaj ${name}, który/która masz ${age} lat. Miło, że tu zaglądasz.`);
+let nameVisitor = "Asia";
+let ageVisitor = 22;
+function hello2(nameVisitor, ageVisitor) {
+    console.log(`Witaj ${nameVisitor}, lat ${ageVisitor} miło mi, że tu zaglądasz`);
 }
-    hello (age, name);
-
+hello2 (nameVisitor, ageVisitor);
     

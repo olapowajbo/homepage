@@ -14,11 +14,14 @@ body {
 }
 .navigation {
   background-color: white;
+  display: flex;
+  justify-content: center;
 }
 .navigation--link{
   color: #657a69;
   text-decoration: none;
   font-size: 18px;
+  padding: 10px;
 }
 .navigation--link__main {
   color: rgb(0, 0, 0);
@@ -77,11 +80,12 @@ body {
   text-align: center;
 }
 .family-article {
-
+  margin: 16px;
 }
 .family-article--title {
   color: #294e3e;
   text-align: center;
+  margin-top: 0px;
 }
 .family-article--description {
   background: #dfe7dd;
@@ -90,12 +94,12 @@ body {
   padding: 10px;
 }
 .kids-article {
-
+  margin: 16px;
 }
 .kids-article--title {
   color: #294e3e;
   text-align: center;
-
+  margin-top: 0px;
 }
 .kids-article--description {
   background: #dfe7dd;
@@ -103,13 +107,14 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
-}
-.day-article{
-  
+
+.day-article {
+  margin: 16px;
 }
 .day-article--title {
   color: #294e3e;
   text-align: center;
+  margin-top: 0px;
 }
 .day-article--description {
   background: #dfe7dd;
@@ -133,6 +138,6 @@ img {
 }
 .offer-section {
   display: flex;
-  flex-direction: row;
   align-content: space-between;
+  flex-wrap: wrap;
 }
