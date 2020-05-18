@@ -6,7 +6,7 @@ html {
 }
 body {
   color: #657a69;
-  background: #d9e2d6;
+  background: linear-gradient(76deg, rgba(0,36,22,1) 0%, rgba(217,226,214,1) 0%, rgba(217,226,214,1) 41%, rgba(202,223,224,1) 88%);
 }
 .main {
   max-width: 1000px;
