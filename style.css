@@ -141,3 +141,21 @@ img {
   align-content: space-between;
   flex-wrap: wrap;
 }
+.contact-section {
+
+}
+
+
+.contact-section--title {
+  color:  #6b9080;
+  text-align: center;
+}
+
+.form {
+
+}
+
+.form__item {
+  display: block;
+  width: 200px;
+}

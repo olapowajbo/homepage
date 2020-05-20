@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation">
+        <a class="navigation--link navigation--link__main" href="index.html">Strona główna</a>
+        <a class="navigation--link" href="aboutMe.html">O mnie</a>
+        <a class="navigation--link" href="offer.html">Oferta</a>
+        <a class="navigation--link" href="contact.html">Kontakt</a>
+      </nav>
+    </header>
+    <main class="main">
+      <header class="main__heading main__heading--js" id="top">
+        <h1>Ola Powajbo - moja fotograficzna przygoda.</h1>
+      </header>
+      <section class="contact-section">
+        <h2 class="contact-section--title">
+          Przez ten formularz możesz się ze mną skontaktować.
+        </h2>
+        <form class="form">
+            <p>
+                <label for="firstName">Twoje imię</label>
+                <input class="form__item" type="text" placeholder="Wpisz swoje imię" id="firstName" name="firstName">
+            </p>
+            <p>
+                <label>Twoje nazwisko:
+                <input class="form__item" type="text" placeholder ="Wpisz swoje nazwisko" id="lastName" name="lastName">
+            </label>
+            </p>
+            <fieldset>
+                <legend>Adres</legend>
+                <p>
+                    <label>Miasto:
+                    <input class="form__item" type="text" placeholder ="Wpisz nazwę miasta" id="cityName" name="citytName">
+                </label>
+                </p>
+                <p>
+                    <label>Ulica:
+                    <input class="form__item" type="text" placeholder ="Wpisz nazwę ulicy" id="streetName" name="streetName">
+                </label>
+                </p>
+            </fieldset>
+        </form>
+        <footer class="footer">
+            Tak, tak to jest moja, własna strona.
+            <a class= "footer__link" href="#top">Wróć na górę strony</a>
+          </footer>
+          <script src="main.js "></script>
+        </body>
+      </html>      

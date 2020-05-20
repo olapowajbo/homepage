@@ -32,4 +32,28 @@ function hello2(nameVisitor, ageVisitor) {
     console.log(`Witaj ${nameVisitor}, lat ${ageVisitor} miło mi, że tu zaglądasz`);
 }
 hello2 (nameVisitor, ageVisitor);
-    
+
+if ('Javascript' != 'Java') {
+    console.log('Zgadza się, to nie to samo');
+} else {
+    console.log('Nie masz racji, to nie to samo')
+}
+
+const humanOne = {
+    name: 'Ola',
+    age: 35,
+}
+
+const humanTwo = {
+    name: 'Marek',
+    age: 38,
+}
+
+if (humanOne.age > humanTwo.age) {
+    console.log('Ola jest starsza od Marka');
+} else if (humanOne.age == humanTwo.age) {
+    console.log('Są rónolatkami');
+} else if (humanOne.age < humanTwo.age) {
+    console.log('Ola jest młodsza od Marka');
+}
+
