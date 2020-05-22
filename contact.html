@@ -25,15 +25,35 @@
         <h2 class="contact-section--title">
           Przez ten formularz możesz się ze mną skontaktować.
         </h2>
-        <form class="form">
+        <form method="post" action="https://dev.cotenfrontend.pl" class="form">
             <p>
                 <label for="firstName">Twoje imię</label>
-                <input class="form__item" type="text" placeholder="Wpisz swoje imię" id="firstName" name="firstName">
+                <input required class="form__item" type="text" placeholder="Wpisz swoje imię" id="firstName" name="firstName">
             </p>
             <p>
                 <label>Twoje nazwisko:
                 <input class="form__item" type="text" placeholder ="Wpisz swoje nazwisko" id="lastName" name="lastName">
             </label>
+            </p>
+            <p>
+              <label for="favouriteNumber">Twój ulubiony numer</label>
+              <input class="form__item" type="number" placeholder="Wpisz swój ulubiony numer" id="favouriteNumber" name="favouriteNumber">
+            </p>
+            <p>
+              <label for="phoneNumber">Twój numer telefonu</label>
+              <input class="form__item" type="tel" id="phoneNumber" name="phoneNumber">
+            </p>
+            <p>
+              <label for="mailAdress">Twój adres email</label>
+              <input class="form__item" type="email" id="mailAdress" name="mailAdress">
+            </p>
+            <p>
+              <label for="password">Twoje hasło</label>
+              <input class="form__item" type="password" placeholder="Wpisz swoje hasło" id="password" name="password">
+            </p>
+            <p>
+              <label for="avatar">Twoje zdjęcie</label>
+              <input class="form__item" type="file" placeholder="Wpisz swój ulubiony numer" id="avatar" name="avatar">
             </p>
             <fieldset>
                 <legend>Adres</legend>
@@ -48,6 +68,31 @@
                 </label>
                 </p>
             </fieldset>
+            <fieldset>
+              <legend>Jaką formę kontaktu z mojej strony preferujesz?</legend>
+              <p>
+                  <label><input name="contactName" type="radio" value="telefoniczny">Telefoniczny</label>
+              </p>
+              <p>
+                <label><input name="contactName" type="radio" value="mailowy">Mailowy</label>
+              </p>
+              <p>
+              <label><input name="contactName" type="radio" value="osobisty">Osobisty</label>
+              </p>
+              </fieldset>
+              <p>
+                Czy wyrażasz zgodę na kontakt z mojej strony?
+              </p>
+              <p>
+                <label><input name="agreement" type="checkbox" value="agree">Zgadzam się</label>
+              </p>
+              <p>
+                <label for="workNote">Jak oceniasz moją pracę</label>
+                <input class="range--js" type="range" id="range" name="range" min="0" max="100" step="10">
+              </p>
+              <p>
+                <input type="submit">
+              </p>
         </form>
         <footer class="footer">
             Tak, tak to jest moja, własna strona.

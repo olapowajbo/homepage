@@ -32,6 +32,10 @@ body {
 .hello-section {
 
 }
+.hello-section--grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 .hello-section--title {
   color: #6b9080;
 }
