@@ -57,3 +57,17 @@ if (humanOne.age > humanTwo.age) {
     console.log('Ola jest młodsza od Marka');
 }
 
+const button = document.querySelector('.action--js')
+console.log(button)
+
+button.addEventListener('click', () => {
+    const heading = document.querySelector('.main__heading--js');
+    heading.innerHTML = 'Witaj nieznajomy!';
+});
+
+const hamburger = document.querySelector('.hamburger--js');
+
+hamburger.addEventListener('click',() => {
+    const nav = document.querySelector('.navigation--js');
+    nav.classList.toggle('navigation--open');
+})
